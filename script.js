@@ -1,28 +1,53 @@
 const riddles = [
     {
-        question: "O que tem cidades, mas não tem casas; tem montanhas, mas não tem árvores; tem água, mas não tem peixes; tem estradas, mas não tem carros?",
-        answer: "mapa",
-        hint: "Você usa isso para se localizar."
+        question: "Sou um conceito fundamental em programação. Quando você me usa, você não sabe exatamente o que vai acontecer, mas sabe que algo vai acontecer eventualmente. Em JavaScript moderno, você frequentemente me usa com .then(). O que sou eu?",
+        answer: "promise",
+        hint: "Async/Await é uma forma mais moderna de me utilizar."
     },
     {
-        question: "Quanto mais você tira, maior eu fico. O que sou eu?",
-        answer: "buraco",
-        hint: "Pense em algo que cresce quando você remove material dele."
+        question: "Em programação, sou como um espelho mágico. Posso examinar a mim mesmo, modificar meu próprio comportamento e até criar novas versões de mim durante a execução. Em Python, type() e getattr() são exemplos do meu uso. O que sou eu?",
+        answer: "reflection",
+        hint: "Permite que um programa examine e modifique sua própria estrutura e comportamento em tempo de execução."
     },
     {
-        question: "O que é, o que é: tem dentes mas não morde?",
-        answer: "pente",
-        hint: "Você usa isso todo dia para arrumar seu cabelo."
+        question: "Sou um padrão de projeto que garante que apenas uma instância de uma classe exista. Meu construtor é privado e você só pode me acessar através de um método estático. O que sou eu?",
+        answer: "singleton",
+        hint: "Muito usado em conexões de banco de dados e configurações globais."
     },
     {
-        question: "O que é que está no meio do começo, no começo do meio, e no final do fim?",
-        answer: "e",
-        hint: "É uma letra que aparece em todas essas palavras."
+        question: "Quando você me usa, eu guardo um valor antigo para calcular um novo. Em programação funcional, sou fundamental para processar arrays. Em JavaScript, você me usa assim: array.reduce((acc, curr) => acc + curr, 0). O que sou eu?",
+        answer: "accumulator",
+        hint: "Sou o primeiro parâmetro em funções reduce()."
     },
     {
-        question: "Tenho milhões de olhos, mas vivo na escuridão. Tenho milhares de ouvidos, mas só tenho silêncio. Tenho milhares de pernas, mas não posso andar. O que sou?",
-        answer: "oceano",
-        hint: "É vasto e profundo, cheio de mistérios."
+        question: "Sou uma estrutura de dados onde o último a entrar é o primeiro a sair. Em JavaScript, push() e pop() são minhas operações principais. Na recursão, sou crucial para rastrear chamadas de função. O que sou eu?",
+        answer: "stack",
+        hint: "Call stack é um exemplo famoso do meu uso."
+    },
+    {
+        question: "Em programação funcional, sou uma função que retorna outra função. Posso 'lembrar' variáveis do escopo externo mesmo depois que ele não existe mais. O que sou eu?",
+        answer: "closure",
+        hint: "JavaScript developers me usam para encapsulamento de dados."
+    },
+    {
+        question: "Sou um conceito em programação onde uma função chama a si mesma. Tenho sempre um caso base para evitar loops infinitos. O fatorial é um exemplo clássico do meu uso. O que sou eu?",
+        answer: "recursion",
+        hint: "Muito usado em estruturas de dados como árvores e grafos."
+    },
+    {
+        question: "Em programação orientada a objetos, sou um princípio que permite que uma classe use atributos e métodos de outra classe. Em JavaScript, uso a palavra-chave 'extends'. O que sou eu?",
+        answer: "inheritance",
+        hint: "Fundamental para reuso de código em OOP."
+    },
+    {
+        question: "Sou um tipo especial de função que pode ser pausada e resumida. Em JavaScript, uso a palavra-chave 'yield' para retornar valores. O que sou eu?",
+        answer: "generator",
+        hint: "Útil para criar sequências infinitas de forma eficiente."
+    },
+    {
+        question: "Quando você precisa garantir que apenas um thread por vez acesse um recurso compartilhado, você me usa. Sou crucial para evitar condições de corrida. O que sou eu?",
+        answer: "mutex",
+        hint: "Mutual exclusion é meu nome completo."
     }
 ];
 
