@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Riddles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Brain Riddles</h1>
+            <div id="progress">Nível 1/10</div>
+        </header>
+        
+        <main>
+            <div id="riddle-container">
+                <div id="riddle-text">
+                    Bem-vindo ao Brain Riddles! 
+                    Prepare-se para resolver enigmas desafiadores.
+                    Clique em começar quando estiver pronto.
+                </div>
+                <input type="text" id="answer-input" placeholder="Digite sua resposta aqui..." autocomplete="off">
+                <button id="submit-btn">Verificar</button>
+                <button id="start-btn">Começar</button>
+            </div>
+            
+            <div id="hint-container">
+                <button id="hint-btn">Dica</button>
+                <p id="hint-text"></p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
